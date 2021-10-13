@@ -1,0 +1,54 @@
+.accordion-button{
+  border: 3px solid white;
+  background-color:#494847;
+  color: azure;
+  font-weight: bold;
+  border-radius: 25px;
+  padding:20px;
+  font-size: 20px;
+}
+.accordion-button:hover
+{
+  background-color: azure;
+  color: black;
+  
+} 
+
+.accordion-collapse{
+  padding: 10px;
+  float: left;
+  font-size: 30px;
+  position: relative;
+  left: 30px;
+}
+
+.accordion-body{
+  background-color:whitesmoke
+}
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+form{
+  flex:30%;
+  padding: 20px;
+}
+
+.accordion{
+  flex: 70%
+}
+@media screen and (max-width: 1024px) {
+  .main{
+    flex-direction: column;
+  }
+  h2{
+    position: relative;
+    right: 100px;
+  }
+  .accordion{
+    position: relative;
+    right: 50px;
+  }
+}

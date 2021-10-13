@@ -1,0 +1,11 @@
+POST http://localhost:3001/api/employee
+Content-Type: application/json
+
+{
+    "name":"aasha",
+    "designation":"junior software developer",
+    "contactNumber":2378232333,
+    "email":"cde@gmail.com",
+    "address":"21,south extension,Tambaram",
+    "salary":20000
+}
